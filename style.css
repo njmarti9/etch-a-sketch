@@ -1,0 +1,24 @@
+#overallContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bottomContainer {
+    display: grid;
+    width: 960px;
+    height: 960px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#topContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.gridBox {
+    border: 2px black solid;
+}
